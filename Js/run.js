@@ -50,6 +50,7 @@ var RENDERER = {
 		this.createLines();
 		this.theta += this.DELTA_THETA;
 		this.theta %= Math.PI * 2;
+		console.log(this.theta);
 	}
 };
 var LINE = function(renderer){
